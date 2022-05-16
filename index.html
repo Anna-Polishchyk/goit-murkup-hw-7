@@ -491,7 +491,7 @@
               ><svg class="form-icon" width="12px" height="12px">
                 <use href="images/symbol-defs.svg#icon-human-form"></use></svg
             ></span>
-            <input type="text" class="form-input" name="name" id="name" />
+            <input class="input" type="text" class="form-input" name="name" id="name" />
           </div>
           <label for="tel">Телефон</label>
           <div class="input-box">
@@ -499,7 +499,7 @@
               ><svg class="form-icon" width="13px" height="13px">
                 <use href="images/symbol-defs.svg#icon-phone-form"></use></svg
             ></span>
-            <input
+            <input class="input"
               type="tel"
               class="form-input"
               name="tel"
@@ -513,7 +513,7 @@
               ><svg class="form-icon" width="15px" height="12px">
                 <use href="images/symbol-defs.svg#icon-mail-form"></use></svg
             ></span>
-            <input type="email" class="form-input" name="mail" id="mail" />
+            <input class="input" type="email" class="form-input" name="mail" id="mail" />
           </div>
           <label for="comment">Комментарий</label>
           <textarea
@@ -522,13 +522,16 @@
             rows="5"
             placeholder="Введите текст"
           ></textarea>
-            <label class="checkbox-label"
-            <input class="checkbox" type="checkbox" name="policy" required/>
-            <span class="checkbox-icon">
-            </span>
-              Соглашаюсь с рассылкой и принимаю
-              <a href="" class="policy-link">Условия договора</a></label
-            >
+          <label class="checkbox-label">
+            <input
+              class="checkbox hiden"
+              type="checkbox"
+              name="policy"
+              required
+            />
+            <span class="checkbox-icon"></span>
+            Соглашаюсь с рассылкой и принимаю<a href="" class="policy-link">Условия договора</a></label
+          >
           <button class="submit-btn" type="submit">Отправить</button>
         </form>
         <button class="close-btn" data-modal-close>
