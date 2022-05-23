@@ -1,0 +1,30 @@
+// Overlay
+.overflow-box {
+    position: relative;
+    overflow: hidden;
+}
+
+.set-item:hover .overlay {
+    transform: translatex(0);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 150, 243, 0.9);
+
+    transform: translatey(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.overlay > p {
+    color: #fff;
+    padding: 63px 24px;
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+}
