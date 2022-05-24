@@ -1,9 +1,8 @@
-@import './variables';
 
 body {
     background-color: $backgroundWhiteColor;
     color: $primaryTextColor;
-    font-family: Roboto; sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 .container {
@@ -49,6 +48,7 @@ h3 {
     &:hover,
     &:focus {
     color: var(--accent-color);
+    }
 }
 
 .button {
