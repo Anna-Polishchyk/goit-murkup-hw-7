@@ -192,8 +192,8 @@
 
     &:hover,
     &:focus {
-    fill: currentColor;
-    border: 1px solid currentColor;
+    fill: $accentColor;
+    border: 1px solid $accentColor;
     }
 }
 

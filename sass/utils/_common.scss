@@ -54,8 +54,8 @@ h3 {
 .button {
     display: inline-block;
     justify-content: center;
-    color: var(--background-white-color);
-    background-color: var(--secondary-accent-color);
+    color: $backgroundWhiteColor;
+    background-color: $secondaryAccentColor;
     cursor: pointer;
     font-family: inherit;
     border-radius: 4px;
