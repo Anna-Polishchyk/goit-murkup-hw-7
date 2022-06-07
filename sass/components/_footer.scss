@@ -47,6 +47,9 @@
 .footer .social-media--item {
     background-color: rgba(255, 255, 255, 0.1);
 }
+.footer .social-media--link {
+    fill: $backgroundWhiteColor;
+}
 .footer .social-media--item:hover,
 .footer .social-media--item:focus {
     background-color: $accentColor;
